@@ -1,0 +1,29 @@
+name: farm_monitoring_app
+description: A farm monitoring application using Flutter and Firebase.
+
+# Add your dependencies and other configurations below
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # Firebase dependencies for authentication, database, and cloud messaging
+  firebase_core: ^2.13.0
+  firebase_auth: ^4.10.0
+  cloud_firestore: ^4.9.0
+  firebase_messaging: ^14.6.0
+
+  # For real-time charts and graphs
+  fl_chart: ^0.69.0
+
+  # State management (choose one)
+  provider: ^6.1.0
+  # OR Riverpod
+  flutter_riverpod: ^2.5.1
+  # For local notifications
+  flutter_local_notifications: ^17.2.2
+
+  # Camera
+  camera: ^0.10.5+9
+
+environment:
+  sdk: '>=3.2.0 <4.0.0'
